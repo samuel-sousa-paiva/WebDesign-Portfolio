@@ -1,0 +1,66 @@
+/* remove margens padrão do navegador */
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    background-color: rgb(37, 61, 196);
+    color: rgb(0, 0, 0)
+}
+
+/* cabeçalho do site */
+header {
+    background-color: #8d1212;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/*menu*/
+nav a {
+
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+/* efeito quando passa o mause*/
+nav a:hover {
+    color: rgb(12, 97, 136)
+}
+
+/* área principal*/
+main {
+    padding: 25px;
+}
+
+/* caixa de cada jogo */
+.game {
+
+    background-color: rgb(117, 15, 15);
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 35px;
+}
+
+/*titulo do jogo*/
+.game h2 {
+    color: lime;
+}
+
+/* botão */
+button {
+    background-color: lime;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+/* efeito no botão*/
+button:hover {
+    background-color: blue;
+}
+FOOTER{ 
+    background-color: #04107a;
+    text-align:center;
+    padding:15px;
+}
